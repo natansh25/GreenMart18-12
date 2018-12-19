@@ -114,6 +114,8 @@ public class SignUp extends Fragment implements Validator.ValidationListener {
         return view;
     }
 
+
+
     protected boolean validate() {
         if (validator != null)
             validator.validate();
@@ -189,6 +191,8 @@ public class SignUp extends Fragment implements Validator.ValidationListener {
             }*/
     }
 }
+
+
 
 
 }

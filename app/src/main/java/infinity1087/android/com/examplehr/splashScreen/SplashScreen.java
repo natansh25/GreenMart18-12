@@ -23,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 Intent i = new Intent(SplashScreen.this, LoginViewPager.class);
                 startActivity(i);
-//                finish();
+                finish();
             }
         }, SPLASH_Screen);
     }
